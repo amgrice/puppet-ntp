@@ -1,6 +1,6 @@
 class ntp::params {
   $package_name       = 'ntp'
-  $pacakge_ensure     = 'present'
+  $package_ensure     = 'present'
   $config_name        = 'ntp.conf'
   $config_file_mode   = '0664'
   $servers            = ['time.seagate.com', 'time.intwideip.seagate.com']
